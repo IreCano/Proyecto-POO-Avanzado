@@ -7,7 +7,15 @@
       "RelativeMoniker": "D:0:0:{595EE100-D377-407D-B401-E39A2340E98F}|ProyectoPOOAvanzado\\ProyectoPOOAvanzado.csproj|solutionrelative:proyectopooavanzado\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{595EE100-D377-407D-B401-E39A2340E98F}|ProyectoPOOAvanzado\\ProyectoPOOAvanzado.csproj|c:\\users\\user\\desktop\\proyectopooavanzado\\proyectopooavanzado\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{595EE100-D377-407D-B401-E39A2340E98F}|ProyectoPOOAvanzado\\ProyectoPOOAvanzado.csproj|c:\\users\\user\\desktop\\proyectopooavanzado\\proyectopooavanzado\\conexion\\claseconexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{595EE100-D377-407D-B401-E39A2340E98F}|ProyectoPOOAvanzado\\ProyectoPOOAvanzado.csproj|solutionrelative:proyectopooavanzado\\conexion\\claseconexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595EE100-D377-407D-B401-E39A2340E98F}|ProyectoPOOAvanzado\\ProyectoPOOAvanzado.csproj|c:\\users\\user\\desktop\\proyectopooavanzado\\proyectopooavanzado\\crud\\clasecrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{595EE100-D377-407D-B401-E39A2340E98F}|ProyectoPOOAvanzado\\ProyectoPOOAvanzado.csproj|solutionrelative:proyectopooavanzado\\crud\\clasecrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595EE100-D377-407D-B401-E39A2340E98F}|ProyectoPOOAvanzado\\ProyectoPOOAvanzado.csproj|C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\proyectopooavanzado\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{595EE100-D377-407D-B401-E39A2340E98F}|ProyectoPOOAvanzado\\ProyectoPOOAvanzado.csproj|solutionrelative:proyectopooavanzado\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,29 +26,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClaseConexionDB.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\ProyectoPOOAvanzado\\conexion\\ClaseConexionDB.cs",
+              "RelativeDocumentMoniker": "ProyectoPOOAvanzado\\conexion\\ClaseConexionDB.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\ProyectoPOOAvanzado\\conexion\\ClaseConexionDB.cs",
+              "RelativeToolTip": "ProyectoPOOAvanzado\\conexion\\ClaseConexionDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T05:17:31.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClaseCrud.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\ProyectoPOOAvanzado\\CRUD\\ClaseCrud.cs",
+              "RelativeDocumentMoniker": "ProyectoPOOAvanzado\\CRUD\\ClaseCrud.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\ProyectoPOOAvanzado\\CRUD\\ClaseCrud.cs",
+              "RelativeToolTip": "ProyectoPOOAvanzado\\CRUD\\ClaseCrud.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwD0AAADbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T04:42:53.972Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\ProyectoPOOAvanzado\\Form1.cs",
               "RelativeDocumentMoniker": "ProyectoPOOAvanzado\\Form1.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\ProyectoPOOAvanzado\\Form1.cs*",
-              "RelativeToolTip": "ProyectoPOOAvanzado\\Form1.cs*",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAuwDkAAAAiAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\ProyectoPOOAvanzado\\Form1.cs",
+              "RelativeToolTip": "ProyectoPOOAvanzado\\Form1.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowD4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T03:28:26.471Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\ProyectoPOOAvanzado\\Form1.cs",
               "RelativeDocumentMoniker": "ProyectoPOOAvanzado\\Form1.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\ProyectoPOOAvanzado\\Form1.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "ProyectoPOOAvanzado\\Form1.cs [Dise\u00F1o]*",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\ProyectoPOOAvanzado\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoPOOAvanzado\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T02:46:37.798Z",
               "EditorCaption": " [Dise\u00F1o]"

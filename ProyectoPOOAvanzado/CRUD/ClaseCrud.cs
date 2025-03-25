@@ -53,10 +53,18 @@ namespace ProyectoPOOAvanzado.CRUD
             mySqlCommand.ExecuteNonQuery();
         }
 
-        //public update()
-        //{
+        public void update(int id, string cedula, string primerNombre, string segundoNombre, string primerApellido, string segundoApellido)
+        {
+            ClaseConexionDB mysqlConnection = new ClaseConexionDB();
 
-        //}
+            MySqlConnection abrirConexion = mysqlConnection.EjecutarConexion();
+
+            string Query = "UPDATE `sistemapos`.`clientes` SET `cedula` = '" + cedula + "', `nombre_1` = '" + primerNombre + "', `nombre_2` = '" + segundoNombre + "', `apellido_1` = '" + primerApellido + "', `apellido_2` = '" + segundoApellido + "' WHERE `id` = " + id + ";";
+
+            MySqlCommand mySqlCommand = new MySqlCommand(Query, abrirConexion);
+
+            mySqlCommand.ExecuteNonQuery();
+        }
 
         //public destroy()
         //{

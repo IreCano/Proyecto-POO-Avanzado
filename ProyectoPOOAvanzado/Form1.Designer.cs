@@ -45,6 +45,7 @@
             this.txtSegundoNombre = new System.Windows.Forms.TextBox();
             this.txtPrimerApellido = new System.Windows.Forms.TextBox();
             this.txtSegundoApellido = new System.Windows.Forms.TextBox();
+            this.lblId = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtgClientes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,7 +85,7 @@
             // 
             this.lblCedula.AutoSize = true;
             this.lblCedula.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCedula.Location = new System.Drawing.Point(32, 145);
+            this.lblCedula.Location = new System.Drawing.Point(35, 145);
             this.lblCedula.Name = "lblCedula";
             this.lblCedula.Size = new System.Drawing.Size(58, 22);
             this.lblCedula.TabIndex = 3;
@@ -95,7 +96,7 @@
             this.lblPrimerNombre.AutoSize = true;
             this.lblPrimerNombre.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPrimerNombre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblPrimerNombre.Location = new System.Drawing.Point(32, 188);
+            this.lblPrimerNombre.Location = new System.Drawing.Point(35, 188);
             this.lblPrimerNombre.Name = "lblPrimerNombre";
             this.lblPrimerNombre.Size = new System.Drawing.Size(113, 22);
             this.lblPrimerNombre.TabIndex = 4;
@@ -105,7 +106,7 @@
             // 
             this.lblSegundoNombre.AutoSize = true;
             this.lblSegundoNombre.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSegundoNombre.Location = new System.Drawing.Point(32, 240);
+            this.lblSegundoNombre.Location = new System.Drawing.Point(35, 240);
             this.lblSegundoNombre.Name = "lblSegundoNombre";
             this.lblSegundoNombre.Size = new System.Drawing.Size(130, 22);
             this.lblSegundoNombre.TabIndex = 5;
@@ -115,7 +116,7 @@
             // 
             this.lblPrimerApellido.AutoSize = true;
             this.lblPrimerApellido.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrimerApellido.Location = new System.Drawing.Point(32, 288);
+            this.lblPrimerApellido.Location = new System.Drawing.Point(35, 288);
             this.lblPrimerApellido.Name = "lblPrimerApellido";
             this.lblPrimerApellido.Size = new System.Drawing.Size(116, 22);
             this.lblPrimerApellido.TabIndex = 6;
@@ -125,7 +126,7 @@
             // 
             this.lblSegundoApellido.AutoSize = true;
             this.lblSegundoApellido.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSegundoApellido.Location = new System.Drawing.Point(32, 342);
+            this.lblSegundoApellido.Location = new System.Drawing.Point(35, 342);
             this.lblSegundoApellido.Name = "lblSegundoApellido";
             this.lblSegundoApellido.Size = new System.Drawing.Size(133, 22);
             this.lblSegundoApellido.TabIndex = 12;
@@ -133,7 +134,7 @@
             // 
             // btnEliminarRegistro
             // 
-            this.btnEliminarRegistro.Location = new System.Drawing.Point(22, 488);
+            this.btnEliminarRegistro.Location = new System.Drawing.Point(826, 404);
             this.btnEliminarRegistro.Name = "btnEliminarRegistro";
             this.btnEliminarRegistro.Size = new System.Drawing.Size(144, 28);
             this.btnEliminarRegistro.TabIndex = 15;
@@ -142,16 +143,17 @@
             // 
             // btnModificarRegistro
             // 
-            this.btnModificarRegistro.Location = new System.Drawing.Point(22, 522);
+            this.btnModificarRegistro.Location = new System.Drawing.Point(826, 438);
             this.btnModificarRegistro.Name = "btnModificarRegistro";
             this.btnModificarRegistro.Size = new System.Drawing.Size(144, 27);
             this.btnModificarRegistro.TabIndex = 16;
             this.btnModificarRegistro.Text = "Modificar Registro";
             this.btnModificarRegistro.UseVisualStyleBackColor = true;
+            this.btnModificarRegistro.Click += new System.EventHandler(this.btnModificarRegistro_Click);
             // 
             // btnInsertar
             // 
-            this.btnInsertar.Location = new System.Drawing.Point(22, 452);
+            this.btnInsertar.Location = new System.Drawing.Point(242, 402);
             this.btnInsertar.Name = "btnInsertar";
             this.btnInsertar.Size = new System.Drawing.Size(143, 30);
             this.btnInsertar.TabIndex = 17;
@@ -172,38 +174,47 @@
             // 
             // txtCedula
             // 
-            this.txtCedula.Location = new System.Drawing.Point(218, 145);
+            this.txtCedula.Location = new System.Drawing.Point(221, 145);
             this.txtCedula.Name = "txtCedula";
             this.txtCedula.Size = new System.Drawing.Size(182, 22);
             this.txtCedula.TabIndex = 19;
             // 
             // txtPrimerNombre
             // 
-            this.txtPrimerNombre.Location = new System.Drawing.Point(218, 189);
+            this.txtPrimerNombre.Location = new System.Drawing.Point(221, 189);
             this.txtPrimerNombre.Name = "txtPrimerNombre";
             this.txtPrimerNombre.Size = new System.Drawing.Size(182, 22);
             this.txtPrimerNombre.TabIndex = 20;
             // 
             // txtSegundoNombre
             // 
-            this.txtSegundoNombre.Location = new System.Drawing.Point(218, 240);
+            this.txtSegundoNombre.Location = new System.Drawing.Point(221, 240);
             this.txtSegundoNombre.Name = "txtSegundoNombre";
             this.txtSegundoNombre.Size = new System.Drawing.Size(182, 22);
             this.txtSegundoNombre.TabIndex = 21;
             // 
             // txtPrimerApellido
             // 
-            this.txtPrimerApellido.Location = new System.Drawing.Point(218, 289);
+            this.txtPrimerApellido.Location = new System.Drawing.Point(221, 289);
             this.txtPrimerApellido.Name = "txtPrimerApellido";
             this.txtPrimerApellido.Size = new System.Drawing.Size(182, 22);
             this.txtPrimerApellido.TabIndex = 22;
             // 
             // txtSegundoApellido
             // 
-            this.txtSegundoApellido.Location = new System.Drawing.Point(218, 343);
+            this.txtSegundoApellido.Location = new System.Drawing.Point(221, 343);
             this.txtSegundoApellido.Name = "txtSegundoApellido";
             this.txtSegundoApellido.Size = new System.Drawing.Size(182, 22);
             this.txtSegundoApellido.TabIndex = 23;
+            // 
+            // lblId
+            // 
+            this.lblId.AutoSize = true;
+            this.lblId.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblId.Location = new System.Drawing.Point(870, 110);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(0, 32);
+            this.lblId.TabIndex = 24;
             // 
             // formGestionVentas
             // 
@@ -211,6 +222,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1193, 615);
+            this.Controls.Add(this.lblId);
             this.Controls.Add(this.txtSegundoApellido);
             this.Controls.Add(this.txtPrimerApellido);
             this.Controls.Add(this.txtSegundoNombre);
@@ -256,6 +268,7 @@
         private System.Windows.Forms.TextBox txtSegundoNombre;
         private System.Windows.Forms.TextBox txtPrimerApellido;
         private System.Windows.Forms.TextBox txtSegundoApellido;
+        private System.Windows.Forms.Label lblId;
     }
 }
 
