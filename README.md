@@ -1,17 +1,18 @@
-## Título
-### Subtítulo
-Este es un ejemplo de texto que da entrada a una lista genérica de elementos:
-- Elemento 1
-- Elemento 2
-- Elemento 3
-Este es un ejemplo de texto que da entrada a una lista numerada:
-1. Elemento 1
-2. Elemento 2
-3. Elemento 3
-Al texto en Markdown puedes añadirle formato como **negrita** o *cursiva* de una manera muy sencilla.
+## PROYECTO POO AVANZADO
+### CENSA
+este es un proyecto para censa el cual tiene como fin mostrar el ejemplo de un crud, contiene las siguientes clases:
+- conexion
+- crud
+
+1. clase ***ClaseConexionDB***
+    - metodo `EjecutarConexion()`
+3. clase ***ClaseCrud***
+    - metodo `index(string table)`
+    - metodo `store(string cedula, string primerNombre, string segundoNombre, string primerApellido, string segundoApellido)`
+    - metodo `update(int id, string cedula, string primerNombre, string segundoNombre, string primerApellido, string segundoApellido)`
+    - metodo `destroy(int id)`
 
 
 ~~~
-Creando códigos de bloque.
-Puedes añadir tantas líneas y párrafos como quieras.  
+git clone https://github.com/IreCano/Proyecto-POO-Avanzado.git 
 ~~~
