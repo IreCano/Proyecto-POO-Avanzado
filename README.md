@@ -1,4 +1,6 @@
-## PROYECTO POO AVANZADO
+![Censa](https://www.censa.edu.co/sitio/shared/rs.php?rsid=1594)
+
+## PROYECTO POO AVANZADO 
 ### CENSA
 este es un proyecto para censa el cual tiene como fin mostrar el ejemplo de un crud, contiene las siguientes clases:
 - conexion
