@@ -27,7 +27,7 @@ namespace ProyectoPOOAvanzado
         }
         private void btnConexionBd_Click(object sender, EventArgs e)
         {
-            string CadenaConexion = "Server=mysql.r4sp1.duckdns.org;User=root;Password=rootpassword;Database=sistemapos";
+            string CadenaConexion = "Server=mysql.censa.duckdns.org;User=root;Password=rootpassword;Database=sistemapos";
             MySqlConnection variableConexion = new MySqlConnection(CadenaConexion);
             try
             {
@@ -145,8 +145,9 @@ namespace ProyectoPOOAvanzado
             try
             {
                 SLDocument sl = new SLDocument();
-                sl.SetCellValue("A1", "Hola mundo en excdel");
-                sl.SaveAs("ArchivoHZ.xlsx");
+                sl.SetCellValue("A1", "INFORME");
+                sl.SaveAs("ArchivoExcel.xlsx");
+                MessageBox.Show("Se generó informe de excel correctamente");
             }catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);

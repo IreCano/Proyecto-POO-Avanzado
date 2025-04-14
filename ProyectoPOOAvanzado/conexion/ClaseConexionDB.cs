@@ -9,7 +9,7 @@ namespace ProyectoPOOAvanzado.conexion
 {
     internal class ClaseConexionDB
     {
-        private string configuracionConexion ="Server=mysql.r4sp1.duckdns.org;User=root;Password=rootpassword;Database=sistemapos";
+        private string configuracionConexion ="Server=mysql.censa.duckdns.org;User=root;Password=rootpassword;Database=sistemapos";
 
         public MySqlConnection EjecutarConexion()
         {

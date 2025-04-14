@@ -42,15 +42,11 @@ C:\Users\USER\Desktop\ProyectoPOOAvanzado\ProyectoPOOAvanzado\bin\Debug\System.R
 C:\Users\USER\Desktop\ProyectoPOOAvanzado\ProyectoPOOAvanzado\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\USER\Desktop\ProyectoPOOAvanzado\ProyectoPOOAvanzado\obj\Debug\Proyecto.DA205D03.Up2Date
 C:\Users\USER\Desktop\ProyectoPOOAvanzado\ProyectoPOOAvanzado\bin\Debug\DocumentFormat.OpenXml.dll
-C:\Users\USER\Desktop\ProyectoPOOAvanzado\ProyectoPOOAvanzado\bin\Debug\DocumentFormat.OpenXml.Framework.dll
 C:\Users\USER\Desktop\ProyectoPOOAvanzado\ProyectoPOOAvanzado\bin\Debug\SpreadsheetLight.dll
 C:\Users\USER\Desktop\ProyectoPOOAvanzado\ProyectoPOOAvanzado\bin\Debug\System.Drawing.Common.dll
 C:\Users\USER\Desktop\ProyectoPOOAvanzado\ProyectoPOOAvanzado\bin\Debug\System.IO.Packaging.dll
 C:\Users\USER\Desktop\ProyectoPOOAvanzado\ProyectoPOOAvanzado\bin\Debug\DocumentFormat.OpenXml.xml
-C:\Users\USER\Desktop\ProyectoPOOAvanzado\ProyectoPOOAvanzado\bin\Debug\DocumentFormat.OpenXml.Framework.xml
 C:\Users\USER\Desktop\ProyectoPOOAvanzado\ProyectoPOOAvanzado\bin\Debug\System.IO.Packaging.xml
-C:\Users\USER\Desktop\ProyectoPOOAvanzado\ProyectoPOOAvanzado\obj\Debug\ProyectoPOOAvanzado.csproj.SuggestedBindingRedirects.cache
-C:\Users\USER\Desktop\ProyectoPOOAvanzado\ProyectoPOOAvanzado\obj\Debug\ProyectoPOOAvanzado.exe.config
 C:\vs\Proyecto-POO-Avanzado\ProyectoPOOAvanzado\bin\Debug\ProyectoPOOAvanzado.exe.config
 C:\vs\Proyecto-POO-Avanzado\ProyectoPOOAvanzado\bin\Debug\ProyectoPOOAvanzado.exe
 C:\vs\Proyecto-POO-Avanzado\ProyectoPOOAvanzado\bin\Debug\ProyectoPOOAvanzado.pdb

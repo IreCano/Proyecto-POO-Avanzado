@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dextt\\Documents\\Proyecto-POO-Avanzado\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{595EE100-D377-407D-B401-E39A2340E98F}|ProyectoPOOAvanzado\\ProyectoPOOAvanzado.csproj|c:\\users\\dextt\\documents\\proyecto-poo-avanzado\\proyectopooavanzado\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{595EE100-D377-407D-B401-E39A2340E98F}|ProyectoPOOAvanzado\\ProyectoPOOAvanzado.csproj|c:\\users\\user\\desktop\\proyectopooavanzado\\proyectopooavanzado\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{595EE100-D377-407D-B401-E39A2340E98F}|ProyectoPOOAvanzado\\ProyectoPOOAvanzado.csproj|solutionrelative:proyectopooavanzado\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{595EE100-D377-407D-B401-E39A2340E98F}|ProyectoPOOAvanzado\\ProyectoPOOAvanzado.csproj|c:\\users\\dextt\\documents\\proyecto-poo-avanzado\\proyectopooavanzado\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{595EE100-D377-407D-B401-E39A2340E98F}|ProyectoPOOAvanzado\\ProyectoPOOAvanzado.csproj|c:\\users\\user\\desktop\\proyectopooavanzado\\proyectopooavanzado\\conexion\\claseconexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{595EE100-D377-407D-B401-E39A2340E98F}|ProyectoPOOAvanzado\\ProyectoPOOAvanzado.csproj|solutionrelative:proyectopooavanzado\\conexion\\claseconexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595EE100-D377-407D-B401-E39A2340E98F}|ProyectoPOOAvanzado\\ProyectoPOOAvanzado.csproj|C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\proyectopooavanzado\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{595EE100-D377-407D-B401-E39A2340E98F}|ProyectoPOOAvanzado\\ProyectoPOOAvanzado.csproj|solutionrelative:proyectopooavanzado\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,15 +22,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ClaseConexionDB.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\ProyectoPOOAvanzado\\conexion\\ClaseConexionDB.cs",
+              "RelativeDocumentMoniker": "ProyectoPOOAvanzado\\conexion\\ClaseConexionDB.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\ProyectoPOOAvanzado\\conexion\\ClaseConexionDB.cs",
+              "RelativeToolTip": "ProyectoPOOAvanzado\\conexion\\ClaseConexionDB.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAjwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T02:59:33.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dextt\\Documents\\Proyecto-POO-Avanzado\\ProyectoPOOAvanzado\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\ProyectoPOOAvanzado\\Form1.cs",
               "RelativeDocumentMoniker": "ProyectoPOOAvanzado\\Form1.cs",
-              "ToolTip": "C:\\Users\\dextt\\Documents\\Proyecto-POO-Avanzado\\ProyectoPOOAvanzado\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\ProyectoPOOAvanzado\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "ProyectoPOOAvanzado\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T02:30:35.005Z",
@@ -36,11 +53,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\dextt\\Documents\\Proyecto-POO-Avanzado\\ProyectoPOOAvanzado\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\ProyectoPOOAvanzado\\Form1.cs",
               "RelativeDocumentMoniker": "ProyectoPOOAvanzado\\Form1.cs",
-              "ToolTip": "C:\\Users\\dextt\\Documents\\Proyecto-POO-Avanzado\\ProyectoPOOAvanzado\\Form1.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\ProyectoPOOAvanzado\\ProyectoPOOAvanzado\\Form1.cs",
               "RelativeToolTip": "ProyectoPOOAvanzado\\Form1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAewBwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAI0AAAAAAAAAAAArwJUAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T23:09:11.645Z",
               "EditorCaption": ""
