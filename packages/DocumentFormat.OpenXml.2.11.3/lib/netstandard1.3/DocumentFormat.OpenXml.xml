@@ -12594,13 +12594,6 @@
             </summary>
             <param name="message">The message that describes the error. </param>
         </member>
-        <member name="M:DocumentFormat.OpenXml.Packaging.OpenXmlPackageException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Initializes a new instance of the OpenXmlPackageException class using the supplied serialized data.
-            </summary>
-            <param name="info">The serialized object data about the exception being thrown.</param>
-            <param name="context">The contextual information about the source or destination.</param>
-        </member>
         <member name="M:DocumentFormat.OpenXml.Packaging.OpenXmlPackageException.#ctor(System.String,System.Exception)">
             <summary>
             Initializes a new instance of the OpenXmlPackageException class using the supplied error message and a reference to the inner exception that caused the current exception.
@@ -12727,20 +12720,6 @@
             <summary>
             Gets the relationship type of the part.
             </summary>
-        </member>
-        <member name="M:DocumentFormat.OpenXml.Packaging.OpenXmlPart.ValidateXml(System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler)">
-            <summary>
-            Validates the XML content of the part by using the specified schema.
-            </summary>
-            <param name="schemas">The set of XML schemas to be used.</param>
-            <param name="validationEventHandler">ValidationEventHandler for validation events.</param>
-        </member>
-        <member name="M:DocumentFormat.OpenXml.Packaging.OpenXmlPart.ValidateXml(System.String,System.Xml.Schema.ValidationEventHandler)">
-            <summary>
-            Validates the XML content of the part by using the specified schema.
-            </summary>
-            <param name="schemaFile">The XML schema to be used.</param>
-            <param name="validationEventHandler">ValidationEventHandler for validation events.</param>
         </member>
         <member name="P:DocumentFormat.OpenXml.Packaging.OpenXmlPart.RootElement">
             <summary>
@@ -13407,13 +13386,6 @@
             Initializes a new instance of <see cref="T:DocumentFormat.OpenXml.Packaging.PartExtensionProvider"/> that is empty, has the specified initial capacity.
             </summary>
             <param name="capacity">The initial number of elements that <see cref="T:DocumentFormat.OpenXml.Packaging.PartExtensionProvider"/> can contain.</param>
-        </member>
-        <member name="M:DocumentFormat.OpenXml.Packaging.PartExtensionProvider.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Initializes a new instance of <see cref="T:DocumentFormat.OpenXml.Packaging.PartExtensionProvider"/> with serialized data.
-            </summary>
-            <param name="info">A <see cref="T:System.Runtime.Serialization.SerializationInfo"/> object containing the information required to serialize the PartExtensionProvider.</param>
-            <param name="context">A <see cref="T:System.Runtime.Serialization.StreamingContext"/> structure containing the source and destination of the serialized stream associated with the PartExtensionProvider.</param>
         </member>
         <member name="M:DocumentFormat.OpenXml.Packaging.PartExtensionProvider.AddPartExtension(System.String,System.String)">
             <summary>
@@ -236150,13 +236122,6 @@
             </summary>
             <param name="message">The message that describes the error. </param>
         </member>
-        <member name="M:DocumentFormat.OpenXml.InvalidMCContentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Initializes a new instance of the InvalidMCContentException class with serialized data.
-            </summary>
-            <param name="info">The SerializationInfo that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The StreamingContext that contains contextual information about the source or destination.</param>
-        </member>
         <member name="M:DocumentFormat.OpenXml.InvalidMCContentException.#ctor(System.String,System.Exception)">
             <summary>
             Initializes a new instance of the InvalidMCContentException class with a specified error message and a reference to the inner exception that is the cause of this exception.
@@ -236245,13 +236210,6 @@
             Initializes a new instance of the InvalidMCContentException class with a specified error message.
             </summary>
             <param name="message">The message that describes the error. </param>
-        </member>
-        <member name="M:DocumentFormat.OpenXml.NamespaceNotUnderstandException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Initializes a new instance of the InvalidMCContentException class with serialized data.
-            </summary>
-            <param name="info">The SerializationInfo that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The StreamingContext that contains contextual information about the source or destination.</param>
         </member>
         <member name="M:DocumentFormat.OpenXml.NamespaceNotUnderstandException.#ctor(System.String,System.Exception)">
             <summary>
@@ -242142,9 +242100,6 @@
             Gets a value indicating whether strict translation is enabled.
             </summary>
         </member>
-        <member name="M:DocumentFormat.OpenXml.XmlConvertingReader.Close">
-            <inheritdoc/>
-        </member>
         <member name="M:DocumentFormat.OpenXml.XmlConvertingReader.Dispose(System.Boolean)">
             <inheritdoc/>
         </member>
@@ -242247,9 +242202,6 @@
         <member name="P:DocumentFormat.OpenXml.XmlConvertingReader.Prefix">
             <inheritdoc/>
         </member>
-        <member name="P:DocumentFormat.OpenXml.XmlConvertingReader.QuoteChar">
-            <inheritdoc/>
-        </member>
         <member name="P:DocumentFormat.OpenXml.XmlConvertingReader.ReadState">
             <inheritdoc/>
         </member>
@@ -242309,6 +242261,12 @@
             </summary>
             <param name="element">The OpenXmlElement.</param>
             <returns>XmlPath to this element from root element.</returns>
+        </member>
+        <member name="M:DocumentFormat.OpenXml.SubclassExtensions.IsSubclassOf(System.Type,System.Type)">
+            <summary>
+            .NET Standard 1.3 does not have an equivalent API for this, but it is fairly
+            trivial to replicate
+            </summary>
         </member>
     </members>
 </doc>

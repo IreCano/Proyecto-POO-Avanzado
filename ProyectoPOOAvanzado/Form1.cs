@@ -142,11 +142,15 @@ namespace ProyectoPOOAvanzado
 
         private void btnReporteExcel_Click(object sender, EventArgs e)
         {
-            SLDocument sl = new SLDocument();
-            sl.SetCellValue("A1","Hola mundo en excdel");
-            sl.SaveAs("ArchivoHZ.xlsx");
-
-
+            try
+            {
+                SLDocument sl = new SLDocument();
+                sl.SetCellValue("A1", "Hola mundo en excdel");
+                sl.SaveAs("ArchivoHZ.xlsx");
+            }catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

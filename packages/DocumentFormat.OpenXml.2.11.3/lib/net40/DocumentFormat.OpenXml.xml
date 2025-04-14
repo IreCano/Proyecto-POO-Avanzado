@@ -242310,5 +242310,17 @@
             <param name="element">The OpenXmlElement.</param>
             <returns>XmlPath to this element from root element.</returns>
         </member>
+        <member name="T:DocumentFormat.OpenXml.TypeExtensions">
+            <summary>
+            TypeInfo is used in the code base as .NET Standard requires it. However, .NET 4.0 and .NET 3.5 do not have this or other
+            convience methods introduced in .NET 4.5 that are used. This provides similar functionality.
+            </summary>
+        </member>
+        <member name="T:DocumentFormat.OpenXml.Marshal">
+            <summary>
+            A proxy class for <see cref="T:System.Runtime.InteropServices.Marshal"/> that provides generic overloads for .NET 3.5
+            and 4.0 as the non-generic overloads are obsolete on newer versions of the framework
+            </summary>
+        </member>
     </members>
 </doc>
