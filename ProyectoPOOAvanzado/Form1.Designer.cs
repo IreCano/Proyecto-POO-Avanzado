@@ -46,6 +46,7 @@
             this.txtPrimerApellido = new System.Windows.Forms.TextBox();
             this.txtSegundoApellido = new System.Windows.Forms.TextBox();
             this.lblId = new System.Windows.Forms.Label();
+            this.btnReporteExcel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgClientes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -140,6 +141,7 @@
             this.btnEliminarRegistro.TabIndex = 15;
             this.btnEliminarRegistro.Text = "Eliminiar Registro";
             this.btnEliminarRegistro.UseVisualStyleBackColor = true;
+            this.btnEliminarRegistro.Click += new System.EventHandler(this.btnEliminarRegistro_Click);
             // 
             // btnModificarRegistro
             // 
@@ -216,12 +218,23 @@
             this.lblId.Size = new System.Drawing.Size(0, 32);
             this.lblId.TabIndex = 24;
             // 
+            // btnReporteExcel
+            // 
+            this.btnReporteExcel.Location = new System.Drawing.Point(826, 471);
+            this.btnReporteExcel.Name = "btnReporteExcel";
+            this.btnReporteExcel.Size = new System.Drawing.Size(144, 27);
+            this.btnReporteExcel.TabIndex = 25;
+            this.btnReporteExcel.Text = "Reporte Excel";
+            this.btnReporteExcel.UseVisualStyleBackColor = true;
+            this.btnReporteExcel.Click += new System.EventHandler(this.btnReporteExcel_Click);
+            // 
             // formGestionVentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1193, 615);
+            this.Controls.Add(this.btnReporteExcel);
             this.Controls.Add(this.lblId);
             this.Controls.Add(this.txtSegundoApellido);
             this.Controls.Add(this.txtPrimerApellido);
@@ -243,6 +256,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "formGestionVentas";
             this.Text = "FormularioPOO";
+            this.Load += new System.EventHandler(this.formGestionVentas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgClientes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -269,6 +283,7 @@
         private System.Windows.Forms.TextBox txtPrimerApellido;
         private System.Windows.Forms.TextBox txtSegundoApellido;
         private System.Windows.Forms.Label lblId;
+        private System.Windows.Forms.Button btnReporteExcel;
     }
 }
 

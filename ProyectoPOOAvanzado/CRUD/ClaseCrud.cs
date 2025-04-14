@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using Mysqlx.Crud;
 using ProyectoPOOAvanzado.conexion;
 
 namespace ProyectoPOOAvanzado.CRUD
@@ -53,6 +56,7 @@ namespace ProyectoPOOAvanzado.CRUD
             mySqlCommand.ExecuteNonQuery();
         }
 
+        //Modificar
         public void update(int id, string cedula, string primerNombre, string segundoNombre, string primerApellido, string segundoApellido)
         {
             ClaseConexionDB mysqlConnection = new ClaseConexionDB();
@@ -66,9 +70,16 @@ namespace ProyectoPOOAvanzado.CRUD
             mySqlCommand.ExecuteNonQuery();
         }
 
-        //public destroy()
-        //{
+        //Eliminar
+        public void destroy(int id)
+        {
+            ClaseConexionDB mysqlConnection = new ClaseConexionDB();
+            MySqlConnection abrirConexion = mysqlConnection.EjecutarConexion();
+            string Query = "DELETE FROM clientes WHERE id = "+id;
 
-        //}
+            MySqlCommand mySqlCommand = new MySqlCommand(Query, abrirConexion);
+
+            mySqlCommand.ExecuteNonQuery();
+        }
     }
 }

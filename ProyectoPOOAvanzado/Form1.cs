@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using ProyectoPOOAvanzado.conexion;
 using ProyectoPOOAvanzado.CRUD;
+using SpreadsheetLight;
 
 namespace ProyectoPOOAvanzado
 {
@@ -110,6 +111,41 @@ namespace ProyectoPOOAvanzado
             {
                 MessageBox.Show(ex.Message); return;
             }
+
+        }
+
+        private void btnEliminarRegistro_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int id = int.Parse(lblId.Text);
+              
+
+                ClaseCrud crud = new ClaseCrud();
+
+                crud.destroy(id);
+
+                dtgClientes.DataSource = crud.index("clientes");
+                dtgClientes.Refresh();
+                MessageBox.Show("Se ha eliminado el registro");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message); return;
+            }
+        }
+
+        private void formGestionVentas_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnReporteExcel_Click(object sender, EventArgs e)
+        {
+            SLDocument sl = new SLDocument();
+            sl.SetCellValue("A1","Hola mundo en excdel");
+            sl.SaveAs("ArchivoHZ.xlsx");
+
 
         }
     }
